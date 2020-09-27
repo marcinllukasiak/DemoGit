@@ -5,9 +5,11 @@
 public with sharing class PD1 {
     private String test;
     private PD2 testPD2;
+    private PD3 testPD3;
 
     public void PD1() {
         this.test = 'test konflikt';
         this.testPD2 = new PD2();
+        this.testPD3 = new PD3();
     }
 }
