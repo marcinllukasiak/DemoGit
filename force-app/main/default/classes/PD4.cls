@@ -1,6 +1,6 @@
-public with sharing class PD2 {
+public with sharing class PD4 {
     private String test;
-    public void PD2() {
+    public void PD4() {
         this.test = 'test';
     }
 }
